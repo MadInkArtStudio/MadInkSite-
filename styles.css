@@ -16,6 +16,7 @@ header {
 }
 
 header h1 {
+    font-family: Verdana, Geneva, sans-serif; /* Updated to Verdana */
     font-size: 2.5em;
     color: #ffffff;
     margin: 0;
@@ -44,5 +45,58 @@ nav a:hover {
 /* Main Content */
 main {
     max-width: 1200px;
-   
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Article Styles */
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, sans-serif; /* Updated to Verdana for consistency */
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1.6em; /* Increased by approx. 10pt */
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main {
+        flex: 0 0 70%;
+    }
+
+    aside {
+        flex: 0 0 25%;
+    }
+}
 
