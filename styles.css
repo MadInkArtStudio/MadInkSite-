@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: Verdana, Geneva, sans-serif; /* Changed to Verdana */
     background: url('https://www.transparenttextures.com/patterns/green-dust-and-scratches.png'), #013220; /* Dark green velvet texture */
     background-size: cover;
     color: #ffffff;
@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif; /* Ensuring Verdana */
     font-size: 3em; /* Increased */
     color: #ffffff;
     margin: 0;
@@ -32,6 +32,7 @@ nav {
 }
 
 nav a {
+    font-family: Verdana, Geneva, sans-serif; /* Ensuring Verdana */
     color: #ffffff;
     text-decoration: none;
     font-size: 0.75em; /* Reduced by ~10pt */
@@ -58,13 +59,14 @@ article {
 
 article h2 {
     font-size: 2.3em; /* Increased */
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif; /* Ensuring Verdana */
     color: #ffffff;
     margin-bottom: 10px;
 }
 
 article p {
     font-size: 2em; /* Increased */
+    font-family: Verdana, Geneva, sans-serif; /* Ensuring Verdana */
     line-height: 2;
     color: #cccccc;
 }
@@ -85,6 +87,7 @@ footer {
     color: #ffffff;
     margin-top: 20px;
     font-size: 1.8em; /* Increased */
+    font-family: Verdana, Geneva, sans-serif; /* Ensuring Verdana */
 }
 
 /* Responsive Design */
