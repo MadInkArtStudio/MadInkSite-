@@ -18,7 +18,7 @@ header {
 
 header h1 {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 3em; /* Increased from 2.5em */
+    font-size: 3em; /* Increased */
     color: #ffffff;
     margin: 0;
 }
@@ -34,9 +34,10 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 1.5em; /* Increased from 1em */
+    font-size: 0.75em; /* Reduced by ~10pt */
     margin: 0 15px;
     transition: color 0.3s;
+    display: inline-block; /* Ensure side-by-side alignment */
 }
 
 nav a:hover {
@@ -56,14 +57,14 @@ article {
 }
 
 article h2 {
-    font-size: 2.3em; /* Increased from 1.5em */
+    font-size: 2.3em; /* Increased */
     font-family: Verdana, Geneva, sans-serif;
     color: #ffffff;
     margin-bottom: 10px;
 }
 
 article p {
-    font-size: 2em; /* Increased from 1.6em */
+    font-size: 2em; /* Increased */
     line-height: 2;
     color: #cccccc;
 }
@@ -101,3 +102,4 @@ footer {
         flex: 0 0 25%;
     }
 }
+
